@@ -1,0 +1,79 @@
+# ===== 키·비밀번호 =====
+# 환경변수 파일 (예시 파일만 커밋)
+.env
+.env.*
+*.env
+!.env.example
+!.env.sample
+!.env.template
+
+# 비밀 설정 파일
+secrets.*
+secret.*
+*.secret
+*.secrets
+credentials.*
+*credentials*.json
+client_secret*.json
+service-account*.json
+service_account*.json
+*-sa-key.json
+token.json
+token.pickle
+.clasprc.json
+.npmrc
+.pypirc
+.netrc
+
+# 예시 파일은 커밋 허용
+!*.example
+!*.sample
+
+# 개인키·인증서
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+id_rsa*
+id_ed25519*
+
+# 클라우드·배포 도구 로그인 정보
+.aws/
+.gcloud/
+.azure/
+.netlify/
+.vercel/
+
+# ===== 의존성·빌드 결과물 =====
+node_modules/
+dist/
+build/
+.next/
+out/
+coverage/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# ===== 로그·임시 파일 =====
+*.log
+*.tmp
+*.temp
+tmp/
+temp/
+
+# ===== 운영체제·에디터 =====
+Thumbs.db
+Desktop.ini
+.DS_Store
+~$*
+.vscode/
+.idea/
+
+# ===== Claude Code 개인 설정 =====
+.claude/settings.local.json
